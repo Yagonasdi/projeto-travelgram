@@ -38,5 +38,23 @@ body{
     font-style: normal;
 }*/
 
+a {
+    text-decoration: none;
+    color: inherit;
 
+}
 
+a:hover{
+    color: var(--brand-color); /*a hora que o usuario passar o mouse em cima do link muda de cor para a cor que esta na variavel brand-color */
+    text-decoration: underline;
+}
+
+.container{
+    padding-inline: 32px; /* padding só dos lados */
+    max-width: 1280px;
+    margin-inline: auto; /*permite centralizar os lados independente se a pagina estiver sem zoom ou não */
+}
+
+.bg-surface-color{
+    background-color: var(--surface-color);
+}
